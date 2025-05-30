@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api", "blue-agenda-api\blue-agenda-api.csproj", "{7D30236A-9D55-4B8A-8946-EA26FC0F1D40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{F564BBEA-8593-49CC-9972-E78EA6260E12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Application", "1- Application", "{9833C7F0-5575-4D05-A4EE-2E98602A5EDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{CE1EBE48-9A44-4ED1-A79C-F7A0CB9ED50B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{E7E607DF-316A-418B-9BCF-35CA54DDC3E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Common", "4 - Common", "{8AC4F25B-E492-4227-9A72-85ABA66B2EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{629A94FF-1B12-4DF0-B799-6A2229926407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.Application", "blue-agenda-api.Application\blue-agenda-api.Application.csproj", "{AB25FF54-C799-45DB-A4AD-3DAF638CC87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.Domain", "blue-agenda-api.Domain\blue-agenda-api.Domain.csproj", "{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{62C05378-5094-4F4A-9918-0389E2F34E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{1D5EAE28-0F66-42C1-88A7-3B3892AD83B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.Data", "blue-agenda-api.Data\blue-agenda-api.Data.csproj", "{948B931F-A1DE-41EA-A00B-FA745F5F4B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.CrossCutting.IoC", "blue-agenda-api.CrossCutting.IoC\blue-agenda-api.CrossCutting.IoC.csproj", "{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.Common", "blue-agenda-api.Common\blue-agenda-api.Common.csproj", "{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blue-agenda-api.Test", "blue-agenda-api.Test\blue-agenda-api.Test.csproj", "{FC803D84-0E8D-484E-A60A-1D8D0243A109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D30236A-9D55-4B8A-8946-EA26FC0F1D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D30236A-9D55-4B8A-8946-EA26FC0F1D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D30236A-9D55-4B8A-8946-EA26FC0F1D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D30236A-9D55-4B8A-8946-EA26FC0F1D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25FF54-C799-45DB-A4AD-3DAF638CC87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25FF54-C799-45DB-A4AD-3DAF638CC87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25FF54-C799-45DB-A4AD-3DAF638CC87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25FF54-C799-45DB-A4AD-3DAF638CC87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948B931F-A1DE-41EA-A00B-FA745F5F4B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948B931F-A1DE-41EA-A00B-FA745F5F4B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948B931F-A1DE-41EA-A00B-FA745F5F4B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948B931F-A1DE-41EA-A00B-FA745F5F4B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC803D84-0E8D-484E-A60A-1D8D0243A109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC803D84-0E8D-484E-A60A-1D8D0243A109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC803D84-0E8D-484E-A60A-1D8D0243A109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC803D84-0E8D-484E-A60A-1D8D0243A109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D30236A-9D55-4B8A-8946-EA26FC0F1D40} = {F564BBEA-8593-49CC-9972-E78EA6260E12}
+		{AB25FF54-C799-45DB-A4AD-3DAF638CC87F} = {9833C7F0-5575-4D05-A4EE-2E98602A5EDB}
+		{8E09B57B-3E06-4A36-ABA6-6B6AAFA6724C} = {CE1EBE48-9A44-4ED1-A79C-F7A0CB9ED50B}
+		{62C05378-5094-4F4A-9918-0389E2F34E62} = {E7E607DF-316A-418B-9BCF-35CA54DDC3E7}
+		{1D5EAE28-0F66-42C1-88A7-3B3892AD83B4} = {E7E607DF-316A-418B-9BCF-35CA54DDC3E7}
+		{948B931F-A1DE-41EA-A00B-FA745F5F4B61} = {62C05378-5094-4F4A-9918-0389E2F34E62}
+		{58E847E8-9611-4F19-A4E0-DFEA38F0B1DA} = {1D5EAE28-0F66-42C1-88A7-3B3892AD83B4}
+		{6A5120FF-5BAE-49E5-81FB-CAF53F1D45A3} = {8AC4F25B-E492-4227-9A72-85ABA66B2EB6}
+		{FC803D84-0E8D-484E-A60A-1D8D0243A109} = {629A94FF-1B12-4DF0-B799-6A2229926407}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E126C48C-88A1-4B04-A0B0-CCE0C697DDB8}
+	EndGlobalSection
+EndGlobal
