@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\blue-agenda-api.Application\blue-agenda-api.Application.csproj" />
+    <ProjectReference Include="..\blue-agenda-api.Data\blue-agenda-api.Data.csproj" />
+    <ProjectReference Include="..\blue-agenda-api.Domain\blue-agenda-api.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
