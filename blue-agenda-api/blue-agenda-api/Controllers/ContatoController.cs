@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using blue_agenda_api.Application.Interfaces;
+using blue_agenda_api.Application.ViewModels;
+using blue_agenda_api.Domain.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace blue_agenda_api.Controllers
 {
@@ -6,28 +9,40 @@ namespace blue_agenda_api.Controllers
     [Route("[controller]")]
     public class ContatoController : ControllerBase
     {
-        [HttpPost("CriaContato")]
-        public IActionResult CriaContato()
+        private readonly ILogger<ContatoController> _logger;
+        private readonly IContatoAppService _contatoAppService;
+        public ContatoController(ILogger<ContatoController> logger, IContatoAppService contatoAppService )
         {
-            return default(IActionResult);  
+            _logger = logger;
+            _contatoAppService = contatoAppService;
+        }
+
+        [HttpPost("CriaContato")]
+        public async  Task<IActionResult> CriaContato(PessoaContatoViewModel pessoaContato)
+        {
+            var result = await _contatoAppService.CriaContatoAsync(pessoaContato);
+            return Ok (result);  
         }
 
         [HttpGet("ObterContato")]
-        public IActionResult ObterContato()
+        public async Task<IActionResult> ObterContato(Guid idContato)
         {
-            return default(IActionResult);
+            var result = await _contatoAppService.ObterContatoAsync(idContato);
+            return Ok(result);
         }
 
         [HttpPut("EditarContato")]
-        public IActionResult EditarContato()
+        public async Task<IActionResult> EditarContato(PessoaContatoViewModel pessoaContato)
         {
-            return default(IActionResult);
+            var result = await _contatoAppService.EditarContatoAsync(pessoaContato);
+            return Ok(result);
         }
 
         [HttpDelete("DeletarContato")]
-        public IActionResult DeletarContato()
+        public async Task<IActionResult> DeletarContato(Guid idContato)
         {
-            return default(IActionResult);
+            var result = await _contatoAppService.ObterContatoAsync(idContato);
+            return Ok(result);
         }
 
     }

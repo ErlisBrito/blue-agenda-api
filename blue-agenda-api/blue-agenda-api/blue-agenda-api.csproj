@@ -8,7 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\blue-agenda-api.CrossCutting.IoC\blue-agenda-api.CrossCutting.IoC.csproj" />
   </ItemGroup>
 
 </Project>

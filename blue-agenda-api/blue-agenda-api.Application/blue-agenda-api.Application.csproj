@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\blue-agenda-api.Common\blue-agenda-api.Common.csproj" />
+    <ProjectReference Include="..\blue-agenda-api.Domain\blue-agenda-api.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
